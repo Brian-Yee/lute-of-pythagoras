@@ -38,7 +38,7 @@ def main(num_pentagrams, fpath):
 
 def parse_arguments():
     """
-    Main CLI for interfacing with pinwheel tiler.
+    Main CLI for interfacing with Lute of Pythagoras drawing application.
 
     Returns:
         argparse.Namespace
