@@ -44,7 +44,9 @@ def parse_arguments():
         argparse.Namespace
             Argparse namespace containg CLI inputs.
     """
-    parser = argparse.ArgumentParser(description=("Pinwheel tiling program."))
+    parser = argparse.ArgumentParser(
+        description=("Lute of Pythagoras draw application.")
+    )
 
     parser.add_argument(
         "num_pentagrams", type=int, help=("Number of pentagons to subsequently nest.")
